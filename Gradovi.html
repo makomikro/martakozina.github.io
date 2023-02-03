@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: #fcfcfc;
+}
+
+ol {
+  background-color: #DCDCDC;
+  width: 200px;
+  color: black;
+  font-size: 17px;
+  line-height: 1.8
+}
+ol.groove {border-style: groove;}
+
+.topnav {
+  overflow: hidden;
+  background-color: #004e00;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  font-size: 18px;
+  padding: 16px 18px;
+  text-decoration: none;
+}
+
+.topnav a:hover {
+  background-color: #003d00;
+}
+
+.column {
+  float: left;
+  padding: 10px;
+}
+
+.column.side {
+  width: 15%;
+}
+
+.column.middle {
+  width: 70%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 30%;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 13px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: middle;
+  margin: 30%
+  width: 10%;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+</style>
+</head>
+<body>
+
+
+<div class="topnav">
+  <a href="#">Europa</a>
+  <a href="#">Gradovi</a>
+  <a href="#">O nama</a>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+  <a target="_blank" href="Pariz.html">
+    <img src="images/pariz.jpg" alt="Eifelov toranj" width="100000" height="800">
+  </a>
+  <div class="desc">Pariz</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="Barcelona.html">
+    <img src="images/barcelona.jpg" alt="Slika Barcelone" width="1000" height="800">
+  </a>
+  <div class="desc">Barcelona</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="Berlin.html">
+    <img src="images/berlin.jpg" alt="Slika Berlina" width="1000" height="800">
+  </a>
+  <div class="desc">Berlin</div>
+</div>
+
+
+<div class="clearfix"></div>
+
+<div style="padding:6px;">
+  
+</body>
+</html>
+
+
